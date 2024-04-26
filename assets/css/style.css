@@ -11,6 +11,22 @@
     border-right-style: solid;
 }
 
+
+footer{
+    border-width: 7px;
+    border-top-style: double;
+}
+
+#blog-title-container{
+    border-radius: 25%;
+    border-style: solid;
+    margin-left: 250px;
+    margin-right: 250px;
+    min-width: fit-content;
+    background-image: linear-gradient(140deg, #EADEDB 0%, #BC70A4 50%, #BFD641 75%);
+    background-color: #1fc8db;
+}
+
 #blog-form{
     align-items: center;
     text-align: center;

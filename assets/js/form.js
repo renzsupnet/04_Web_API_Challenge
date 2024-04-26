@@ -1,7 +1,9 @@
+/* Get elements from html */
 const theme = document.getElementById("themeButton");
 const back = document.getElementById("backButton");
 const themeChange = document.querySelector("body");
 
+/* Check if theme has already been set and if not set the default of light */
 if(!localStorage.getItem('theme')){
     localStorage.setItem('theme', 'light');
     themeChange.setAttribute('data-bs-theme', 'light');
@@ -15,7 +17,7 @@ if(localStorage.getItem('theme') === "light"){
         localStorage.setItem('theme', 'dark');
         themeChange.setAttribute('data-bs-theme', 'dark')
     }   
-
+/* Since bootstrap has an attribute propert of data-bs-theme, we set it to dark/ light as appropriate whenever the toggle is pressed */
 theme.onclick = function() {
     event.preventDefault();
 
@@ -38,7 +40,7 @@ theme.onclick = function() {
     }
     
 }
-
+/* Redirects to the main page */
 back.onclick = function(){
     window.location.href = '/index.html';
 }

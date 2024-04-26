@@ -10,11 +10,18 @@
     margin:20px;
     width: 95%;
 }
-
+footer{
+    border-width: 7px;
+    border-top-style: double;
+}
 .card-title{
     border-bottom-style: solid;
 }
 
 .blockquote-footer{
     padding-top: 40px;
+}
+
+.blog-title{
+    background: lightblue;
 }
