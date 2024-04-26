@@ -1,0 +1,20 @@
+.navbar{
+    border-width: 7px;
+    border-bottom-style: double;
+}
+
+.card{
+    padding-top: 25px;
+    border-style: solid;
+    border-width: 7px;
+    margin:20px;
+    width: 95%;
+}
+
+.card-title{
+    border-bottom-style: solid;
+}
+
+.blockquote-footer{
+    padding-top: 40px;
+}

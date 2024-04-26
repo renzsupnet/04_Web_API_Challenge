@@ -1,0 +1,20 @@
+.navbar{
+    border-width: 7px;
+    border-bottom-style: double;
+}
+
+#blog-title{
+    align-items: center;
+    text-align: center;
+    padding-top: 25%;
+    vertical-align: middle;
+    border-right-style: solid;
+}
+
+#blog-form{
+    align-items: center;
+    text-align: center;
+    padding-top: 20%;
+    vertical-align: middle;
+    border-right-style: solid;
+}
