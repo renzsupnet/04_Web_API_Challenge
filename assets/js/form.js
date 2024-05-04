@@ -17,7 +17,7 @@ if(localStorage.getItem('theme') === "light"){
         localStorage.setItem('theme', 'dark');
         themeChange.setAttribute('data-bs-theme', 'dark')
     }   
-/* Since bootstrap has an attribute propert of data-bs-theme, we set it to dark/ light as appropriate whenever the toggle is pressed */
+/* Since bootstrap has an attribute property of data-bs-theme, we set it to dark/ light as appropriate whenever the toggle is pressed */
 theme.onclick = function() {
     event.preventDefault();
 
@@ -42,7 +42,7 @@ theme.onclick = function() {
 }
 /* Redirects to the main page */
 back.onclick = function(){
-    window.location.href = '/index.html';
+    document.location.replace('./index.html');
 }
 
 

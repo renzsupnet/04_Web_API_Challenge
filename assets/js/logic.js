@@ -38,7 +38,7 @@ const handleSubmit = function (e) {
   localStorage.setItem('post_items', JSON.stringify(post_item));
 
   /* Redirects to blog after clicking submit */
-  window.location.href = '/blog.html';
+  document.location.replace('./blog.html');
 }
 
 /* Calling the handler function using an Event Listener */
