@@ -6,6 +6,10 @@ A challenge to create a blog that displays the title, content and author from lo
 
 Fill up the entire input fields and then click submit. This will lead you to the blog.html page where the current post items from localStorage are rendered as well as the one you just inputted. Click the sun/moon on the upper right page to toggle between light/dark mode. Bootstrap was utilized in this implementation.
 
+## Deployed Application Link
+
+[Check it live by clicking here](https://renzsupnet.github.io/04_Web_API_Challenge/)
+
 ## Goal
 - To present a JSON array of blog post objects, each including the post author's username, title of the post, and post's content
 - To present a list of blog posts that are pulled from localStorage
